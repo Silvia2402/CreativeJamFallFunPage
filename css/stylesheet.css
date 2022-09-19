@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.hero-image{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/Fallbackground2.jpg);
+    background-position: center center;
+    background-size: cover;
+    }
+    
+.hero-image h1 {
+    padding-left: 5vw;
+    padding-top: 5vh;
+    font-family: fantasy;
+    font-size: 72px;
+}
+
+.hero-image h2{
+    padding-left: 5vw;
+    width: 45%;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.article {
+    padding: 1em;
+    margin-top: 100px;
+}
+
+p{
+    text-align: justify;
+    font-size: 18px;
+    margin-right: 32em;
+}
+
+h1{
+    color: darkorange;
+}
+
+h2{
+    color: orangered;
+}
+
+body{
+    color: floralwhite;
+}
+
+.hikes{
+    float: right;
+    margin-left: 15em;
+    margin-bottom: 2em;
+    margin-top: 6em;
+    width: 25%;
+    padding: .5em;
+    border-width: medium;
+    border-style: dotted;
+    border-color: floralwhite;
+    text-align: left;
+}
+
+
+h3{
+    font-size: 27px;
+    font-family: fantasy;
+    color: darkorange;
+}
+
+.Hike1 a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.Hike2 a{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.Hike3 a{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 2em;
+    margin-left: 1em;
+}
